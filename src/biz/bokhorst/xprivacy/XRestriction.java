@@ -88,6 +88,7 @@ public class XRestriction {
 		mRestrictions.get(cMessages).add("RECEIVE_SMS");
 		if (XRestriction.cExperimental)
 			mRestrictions.get(cNetwork).add("ACCESS_NETWORK_STATE");
+        mRestrictions.get(cMessages).add("WRITE_SMS");
 		mRestrictions.get(cPhone).add("READ_PHONE_STATE");
 		mRestrictions.get(cPhone).add("PROCESS_OUTGOING_CALLS");
 		mRestrictions.get(cPhone).add("READ_CALL_LOG");
